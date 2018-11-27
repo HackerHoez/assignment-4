@@ -1,0 +1,176 @@
+body {
+	background-image: url("fireworks.gif");  
+}
+
+
+h1 {
+	font-family: Helvetica;
+	color: red;
+	font-size: 40px;
+	margin: auto;
+	text-align: center; 
+	z-index: -1;
+}
+
+.stripe-wrapper {
+	height: 400px;
+	width: 500px;
+	overflow: hidden;
+	transition: background 4s ease-in-out;
+	background-color: white;
+	margin: auto;
+}
+
+.stripe-wrapper:hover {
+	background-color: blue;
+}
+
+.stripe-wrapper:hover .stripe {
+	background-color: red;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe1 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe2 {
+	background-color: red;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe3 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe4 {
+	background-color: red;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe5 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe6 {
+	background-color: red;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe-wrapper:hover .stripe7 {
+	background-color: white;
+	transform: translateX(600px);
+	z-index: 5;
+}
+
+.stripe {
+	width: 500px;
+	height: 50px;
+	background-color: red;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+	margin-top: -50px;
+}
+
+.stripe1 {
+	width: 500px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe2 {
+	width: 500px;
+	height: 50px;
+	background-color: red;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe3 {
+	width: 500px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe4 {
+	width: 500px;
+	height: 50px;
+	background-color: red;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe5 {
+	width: 500px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe6 {
+	width: 500px;
+	height: 50px;
+	background-color: red;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+.stripe7 {
+	width: 500px;
+	height: 60px;
+	background-color: blue;
+	border-radius: 5px;
+	transition-property: background-color, transform; 
+	transition-duration: 5s, 5s;
+	transition-timing-function: ease-in-out;
+	z-index: 5;
+}
+
+
+@keyframes riseandset {
+	from {
+		transform: translateY(600px);
+	}
+
+	to {
+		transform: translateY(-600px);
+		background-color: blue;
+	}
+}
+

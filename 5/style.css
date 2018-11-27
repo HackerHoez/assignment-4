@@ -1,0 +1,127 @@
+
+#background{
+	display: block;
+	height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+  
+}
+
+#u{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: -300px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+
+#u1 {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 300px;
+	top: -500px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+#u2{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 600px;
+	top: -300px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+#u3{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 800px;
+	top: -400px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+
+#u4{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 700px;
+	top: -600px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+#u5{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 900px;
+	top: -650px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+#u6{
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 100px;
+	top: -400px;
+	overflow: hidden;
+	animation-name: umbrella;
+	animation-duration: 5s;
+	animation-iteration-count: 3;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+
+
+@keyframes umbrella
+{
+	from {
+		transform:translateY(-300px);	
+	}
+	to {
+		transform: translateY(1400px);
+	}
+}
+
+h1 {
+	color: blue; 
+	text-align: center;
+}

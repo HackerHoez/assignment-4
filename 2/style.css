@@ -1,0 +1,167 @@
+body {
+	font-family: Helevetica; 
+	font-size: 50px
+}
+
+
+#red, #orange, #yellow, #green, #blue, #purple{
+animation-duration: infinite;
+	
+}
+
+#red:hover {
+	color: red;
+	text-decoration: none;
+	transition: .1s;
+}
+
+#red {
+	color: black;
+	text-align: center; 
+}
+
+#orange {
+	color:black;
+}
+
+#orange:hover {
+	color: orange;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#yellow {
+	color:black;
+}
+
+#yellow:hover {
+	color: yellow;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#green {
+	color:black;
+}
+
+#green:hover {
+	color: green;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#blue {
+	color:black;
+}
+
+#blue:hover {
+	color: blue;
+	text-decoration: none;
+	transition: .2s;
+}
+
+#purple {
+	color:black;
+}
+
+#purple:hover {
+	color: purple;
+	text-decoration: none;
+	transition: .2s;
+}
+
+
+#purple:hover {
+	color: purple;
+	text-decoration: none;
+	transition: .2s;
+
+}
+
+body {
+	background-image: url("rainbow.gif"); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

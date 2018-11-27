@@ -1,0 +1,59 @@
+h1 {
+	font-family: Helvetica;
+	font-size: 25px;
+	margin: auto; 
+	text-align: center;
+	color: white; 
+}
+
+
+.curtain-wrapper {
+	height: 630px;
+	width: 810px;
+	overflow: hidden;
+	transition: background 4s ease-in-out;
+	background-image: url("theatre.gif"); 
+	margin: auto;
+	z-index: 6;
+	
+}
+
+.curtain-wrapper:hover {
+	background-color: transparent blue;
+}
+
+.curtain-wrapper:hover .curtain {
+	background-image: url("curtains1.jpg"); 
+	object-fit: fill; 
+	height: 630px;
+	width: 810px;
+	transform: translateY(600px);
+	z-index: 5;
+}
+
+.curtain {
+	width: 500px;
+	height: 550px;
+	background-image: url("curtains1.jpg"); 
+	object-fit: fill; 
+	height: 630px;
+	width: 810px;
+	border-radius: 1px;
+	transition-property: background-color, transform; 
+	transition-duration: 4s, 4s;
+	transition-timing-function: ease-in-out;
+	z-index: 6;
+	margin-top: -540px;
+}
+
+
+img {
+	margin-left: 4px;
+	z-index: -1;
+}
+body {
+	background-image: url("stage.jpg");
+	  min-width: 100%;
+      min-height: 100%;
+      object-fit: cover; 
+}
